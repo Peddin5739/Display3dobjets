@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  height: 100vh; /* make it full height of the viewport */
+}
+
+.component.left {
+  flex: 1; /* take up 50% of the width */
+  background-color: #eee; /* just for visual checking, you can remove later */
+}
+
+.component.right {
+  flex: 1; /* take up 50% of the width */
+  background-color: #ddd; /* just for visual checking, you can remove later */
+}
