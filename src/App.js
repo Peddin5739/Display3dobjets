@@ -15,6 +15,14 @@ function App() {
       <div className="container">
         <div className="component left">
           <Customize />
+          <button
+            onClick={() => {
+              alert("Submit???!! You Cannot enter the survey");
+            }}
+            className="Submit-button"
+          >
+            Sumit
+          </button>
         </div>
 
         <div className="component right">

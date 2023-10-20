@@ -13,3 +13,9 @@
 
   background-color: #eee; /* just for visual checking, you can remove later */
 }
+.Submit-button {
+  background-color: red;
+  color: aliceblue;
+  height: 30px;
+  border-radius: 0%;
+}
